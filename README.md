@@ -11,19 +11,19 @@
 
 常规行进路线为
 
-![image](https://github.com/DarkSand/mzituSpider/blob/master/pic/pic_1.png)
+![image](https://github.com/DarkSand/LunarRover/blob/master/pic/pic_1.png)
 
 移动之前进行校正坐标系，将目标点的横坐标与当前月球车横坐标进行对齐设置为0
 
-![image](https://github.com/DarkSand/mzituSpider/blob/master/pic/pic_2.png)
+![image](https://github.com/DarkSand/LunarRover/blob/master/pic/pic_2.png)
 
 校正之后的坐标系如图所示
 
-![image](https://github.com/DarkSand/mzituSpider/blob/master/pic/pic_3.png)
+![image](https://github.com/DarkSand/LunarRover/blob/master/pic/pic_3.png)
 
 并且假设每个障碍物都可以通过下图的方式绕开
 
-![image](https://github.com/DarkSand/mzituSpider/blob/master/pic/pic_4.png)
+![image](https://github.com/DarkSand/LunarRover/blob/master/pic/pic_4.png)
 
 程序入口在Main.scala
 
@@ -44,4 +44,5 @@
 }
 
 为了保证程序的运行时间，请将目标点Y坐标尽可能设置大一些
+
 月球车速度为米/秒 默认为1
