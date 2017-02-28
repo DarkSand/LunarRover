@@ -9,12 +9,12 @@ object ControlCenter extends Actor {
   /**
     * 预测当前月球车位置
     *
-    * @param nowy 当前y坐标
+    * @param nowY 当前y坐标
     * @param v    当前速度
     * @return 预测的当前月球车y坐标
     */
-  def forecast(nowy: Double, v: Double): Double = {
-    return nowy + v * 2
+  def forecast(nowY: Double, v: Double): Double = {
+    return nowY + v * 2
   }
 
   /**
