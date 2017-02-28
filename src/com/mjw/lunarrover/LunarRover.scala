@@ -113,7 +113,7 @@ class LunarRover(idx: String, toPointx: Point) extends Actor {
   }
 
   /**
-    * 向控制中心发送偏转消息
+    * 向控制中心发送停止消息
     *
     */
   private def sendMessageEnd(): Unit = {
