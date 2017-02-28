@@ -9,14 +9,11 @@ import scala.util.parsing.json.JSON
 object Main {
 
   def main(args: Array[String]): Unit = {
-    /**
-      * 启动控制中心接收消息
-      */
+
+    //启动控制中心接收消息
     ControlCenter.start
 
-    /**
-      * 从文本读取月球车数据，解析为json对象，并生成月球车对象，启动月球车
-      */
+    //从文本读取月球车数据，解析为json对象，并生成月球车对象，启动月球车
     val jsonStr = Source.fromFile("src/pointInfo.txt").mkString
     val json = JSON.parseFull(jsonStr)
     json match {
